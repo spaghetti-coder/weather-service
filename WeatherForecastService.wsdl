@@ -3,7 +3,7 @@
   <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Get one week weather forecast for valid zip code or Place name in USA</wsdl:documentation>
   <wsdl:types>
     <s:schema elementFormDefault="qualified" targetNamespace="http://www.webservicex.net">
-       <s:include schemaLocation="https://github.com/spaghetti-coder/weather-service/blob/master/WeatherForecast.xsd" />
+       <s:include schemaLocation="https://raw.githubusercontent.com/spaghetti-coder/weather-service/master/WeatherForecast.xsd" />
     </s:schema>
   </wsdl:types>
   <wsdl:message name="GetWeatherByZipCodeSoapIn">
